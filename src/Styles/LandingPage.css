@@ -1,11 +1,35 @@
 .landingContainer {
-  background: #757F9A;
-  background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
-  background: linear-gradient(to right, #D7DDE8, #757F9A);
-  height: 100%;
+  width: 100%;
+  text-align: center;
+  background: #1F1C2C;
+  background: -webkit-linear-gradient(to top, #928DAB, #1F1C2C);
+  background: linear-gradient(to top, #928DAB, #1F1C2C);
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #D7DDE8;
+  opacity: .6;
+  width: 75%;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.description h1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.description h4 {
+  font-weight: bold;
 }
 
 #profileImg {
-  height: 300px;
+  height: 30%;
   border-radius: 20%;
+  margin-top: 5%;
 }

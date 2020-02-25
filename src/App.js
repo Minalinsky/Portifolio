@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <Layout>
-        <Header transparent title="Title" className="headerContainer">
+        <Header transparent title="Alyson Maruyama" className="headerContainer">
           <Navigation>
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>

@@ -4,7 +4,6 @@
 
 .headerContainer {
   background: url('../img/background.jpg') center / cover;
-  position: 'relative';
   color: white;
   height: 100px;
 }
