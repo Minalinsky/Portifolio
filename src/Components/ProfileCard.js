@@ -1,4 +1,5 @@
 import React from 'react'
+import { ProgressBar } from 'react-mdl'
 
 import ProfileImage from '../img/profile.jpg'
 import '../Styles/ProfileCard.css'
@@ -23,7 +24,7 @@ export default class ProfileCard extends React.Component {
         'alyson1907@gmail.com',
         '(17)98187-3019'
       ],
-      description: 'Apaixonado por programação e tecnologia!'
+      description: 'Sou apaixonado por programação e estudar assuntos referentes à tecnologia!'
     }
   }
 
@@ -46,6 +47,8 @@ export default class ProfileCard extends React.Component {
               )
             })}
           </table>
+          <ProgressBar buffer={0} id='progressBar' />
+          <p style={{ margin: '3%' }}>{this.state.description}</p>
         </div>
       </div>
     )
