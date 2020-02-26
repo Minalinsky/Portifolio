@@ -14,16 +14,15 @@
   margin-right: 2%;
 }
 
-#personalInfoTable {
-  margin-left: 5%;
-}
-
 .profileIcon {
-  height: 30px;
+  padding-left: 15%;
+  height: 40px;
 }
 
 .profileTextCell {
-  padding-top: 5%;
+  width: 100%;
+  padding-top: 2.5%;
+  padding-left: 2%;
 }
 
 #personalInfoBox p {
