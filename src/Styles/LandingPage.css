@@ -7,16 +7,18 @@
 }
 
 .description {
+  background-color: var(--textBackground);
+  opacity: .6;
+  border-radius: 15px;
+}
+
+.descriptionStyle {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #D7DDE8;
-  opacity: .6;
   width: 75%;
-  border-radius: 15px;
   margin: auto;
-  margin-top: 30px;
 }
 
 .description h1 {
@@ -26,10 +28,4 @@
 
 .description h4 {
   font-weight: bold;
-}
-
-#profileImg {
-  height: 30%;
-  border-radius: 20%;
-  margin-top: 5%;
 }

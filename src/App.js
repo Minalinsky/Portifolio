@@ -10,8 +10,8 @@ function App() {
       <Layout>
         <Header transparent title="Alyson Maruyama" className="headerContainer">
           <Navigation>
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
+            <Link to="/">Início</Link>
+            <Link to="/about">Sobre</Link>
           </Navigation>
         </Header>
         <Content>

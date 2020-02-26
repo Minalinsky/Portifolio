@@ -1,11 +1,19 @@
+:root {
+  --textBackground: #D7DDE8;
+  --textColor: black;
+}
+
 .App {
   text-align: center;
 }
 
 .headerContainer {
   background: url('../img/background.jpg') center / cover;
-  color: white;
   height: 100px;
+}
+
+.headerName {
+  color: black;
 }
 
 @media (prefers-reduced-motion: no-preference) {
