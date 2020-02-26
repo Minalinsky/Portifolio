@@ -8,10 +8,9 @@ import '../Styles/LandingPage.css'
 import name from '../img/icons/name.svg'
 import email from '../img/icons/email.svg'
 import phone from '../img/icons/phone.svg'
-import { findByLabelText } from '@testing-library/react'
 
 export default class ProfileCard extends React.Component {
-  constructor(props) {
+  constructor (props) {
     super(props)
     this.state = {
       icons: [
@@ -28,19 +27,19 @@ export default class ProfileCard extends React.Component {
     }
   }
 
-  render() {
+  render () {
     return (
-      <div className="profileCardContainer">
-        <img src={ProfileImage} id="profileImg" />
-        <div className="description" id="personalInfoBox">
-          <table id="personalInfoTable">
+      <div className='profileCardContainer'>
+        <img src={ProfileImage} id='profileImg' />
+        <div className='description' id='personalInfoBox'>
+          <table id='personalInfoTable'>
             {this.state.icons.map((icon, index) => {
               return (
                 <tr>
                   <td>
-                    <img src={icon} className="profileIcon" />
+                    <img src={icon} className='profileIcon' />
                   </td>
-                  <td className="profileTextCell">
+                  <td className='profileTextCell'>
                     <p>{this.state.info[index]}</p>
                   </td>
                 </tr>
