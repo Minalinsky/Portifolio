@@ -17,9 +17,23 @@ export default class LandingPage extends React.Component {
         'NodeJS',
         'MySQL'
       ],
-      socialMediaIcons: [gitlabIcon, githubIcon, linkedinIcon]
+      socialMediaIcons: [
+        {
+          icon: gitlabIcon,
+          url: 'https://gitlab.com/alyson1907'
+        },
+        {
+          icon: githubIcon,
+          url: 'https://github.com/Minalinsky'
+        },
+        {
+          icon: linkedinIcon,
+          url: 'https://www.linkedin.com/in/alysonmaruyama/'
+        }
+      ]
     }
   }
+
   render () {
     return (
       <div className='landingContainer'>
@@ -31,8 +45,8 @@ export default class LandingPage extends React.Component {
               <ProgressBar indeterminate style={{ width: '75%' }} />
               <h4> {this.state.hardSkills.join(' • ')}</h4>
               <div className='socialMedia'>
-                {this.state.socialMediaIcons.map(icon => (
-                  <Button ripple accent className='socialButton'>
+                {this.state.socialMediaIcons.map(({ icon, url }) => (
+                  <Button ripple accent className='socialButton' onClick={() => window.open(url)}>
                     <img src={icon} />
                   </Button>
                 ))}
