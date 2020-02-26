@@ -29,3 +29,20 @@
 .description h4 {
   font-weight: bold;
 }
+
+.socialMedia {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  width: 22%;
+  min-width: 170px;
+  margin-bottom: 2%;
+}
+
+.socialMedia .socialButton {
+  height: inherit;
+}
+
+.socialMedia .socialButton img {
+  height: inherit;
+}
