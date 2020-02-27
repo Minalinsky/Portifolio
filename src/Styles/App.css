@@ -16,3 +16,7 @@
   background: linear-gradient(to right, #928DAB, #1F1C2C);
   font-family: 'Roboto';
 }
+
+#Content {
+  background-color: black;
+}

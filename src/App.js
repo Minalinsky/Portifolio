@@ -27,7 +27,7 @@ function App () {
         </Header>
 
         {/* Body */}
-        <Content>
+        <Content id='Content'>
           <LandingPage />
         </Content>
       </Layout>
