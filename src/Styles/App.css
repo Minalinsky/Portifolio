@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap');
+
 :root {
   --textBackground: #fafafa;
   --textColor: black;
@@ -9,27 +11,8 @@
 }
 
 .headerContainer {
-  background-image: url('../img/background.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 100px;
-}
-
-.headerName {
-  color: black;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background: #1F1C2C;
+  background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);
+  background: linear-gradient(to right, #928DAB, #1F1C2C);
+  font-family: 'Roboto';
 }
