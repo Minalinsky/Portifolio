@@ -4,15 +4,25 @@ import { Link } from 'react-router-dom'
 import './Styles/App.css'
 import LandingPage from './Pages/LandingPage'
 
+const linkStyle = {
+  fontSize: '20px'
+}
+
+const getTitle = () => {
+  return (
+    <h4 style={{margin: 'auto'}}> Alyson Maruyama </h4>
+  )
+}
+
 function App () {
   return (
     <div>
       <Layout>
         {/* Header */}
-        <Header transparent title='Alyson Maruyama' className='headerContainer'>
+        <Header transparent title={getTitle()} className='headerContainer'>
           <Navigation>
-            <Link to='/'>Início</Link>
-            <Link to='/about'>Sobre</Link>
+            <Link to='/' style={linkStyle}>Início</Link>
+            <Link to='/about' style={linkStyle}>Sobre</Link>
           </Navigation>
         </Header>
 
