@@ -48,7 +48,7 @@ export default class ProfileCard extends React.Component {
             })}
           </table>
           <ProgressBar buffer={0} id='progressBar' />
-          <p style={{ margin: '3%' }}>{this.state.description}</p>
+          <p style={{ padding: '4%' }}>{this.state.description}</p>
         </div>
       </div>
     )

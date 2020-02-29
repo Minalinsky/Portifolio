@@ -2,7 +2,7 @@ import React from 'react'
 import { Layout, Header, Navigation, Content } from 'react-mdl'
 import { Link } from 'react-router-dom'
 import './Styles/App.css'
-import LandingPage from './Pages/LandingPage'
+import Routes from './Pages/routes'
 
 const linkStyle = {
   fontSize: '20px'
@@ -28,7 +28,7 @@ function App () {
 
         {/* Body */}
         <Content id='Content'>
-          <LandingPage />
+          <Routes />
         </Content>
       </Layout>
     </div>
