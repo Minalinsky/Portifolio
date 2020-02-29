@@ -37,8 +37,8 @@ export default class LandingPage extends React.Component {
   render () {
     return (
       <div className='landingContainer'>
-        <Grid>
-          <Cell col={12} style={{height: '89vh'}}>
+        <Grid style={this.springStyle}>
+          <Cell col={12} style={{ height: '89vh' }}>
             <ProfileCard />
             <div className='descriptionStyle description'>
               <h1> Back-End Developer </h1>
