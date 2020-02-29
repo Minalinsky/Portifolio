@@ -31,7 +31,7 @@ export default class ProfileCard extends React.Component {
 
   render () {
     return (
-      <Spring from={{ opacity: 0, marginTop: -500 }} to={{ opacity: 1, marginTop: 0 }} config={{ duration: 700 }}>
+      <Spring from={{ marginTop: -500 }} to={{ marginTop: 0 }} config={{ duration: 700 }}>
         {props => (
           <div className='profileCardContainer' style={props}>
             <img src={ProfileImage} id='profileImg' />
