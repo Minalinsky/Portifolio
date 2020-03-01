@@ -10,7 +10,7 @@ const linkStyle = {
 
 const getTitle = () => {
   return (
-    <h4 style={{margin: 'auto'}}> Alyson Maruyama </h4>
+    <h4 style={{ margin: 'auto' }}> Alyson Maruyama </h4>
   )
 }
 
@@ -28,6 +28,7 @@ function App () {
 
         {/* Body */}
         <Content id='Content'>
+          <div className='background' />
           <Routes />
         </Content>
       </Layout>
