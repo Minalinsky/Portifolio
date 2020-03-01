@@ -3,8 +3,7 @@ import { ProgressBar } from 'react-mdl'
 import { Spring } from 'react-spring/renderprops'
 
 import ProfileImage from '../img/profile.jpg'
-import '../Styles/ProfileCard.css'
-import '../Styles/LandingPage.css'
+import '../Styles/Components/ProfileCard.css'
 
 // Images
 import name from '../img/icons/name.svg'

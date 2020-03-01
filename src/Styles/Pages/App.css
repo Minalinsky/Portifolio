@@ -11,20 +11,11 @@
   text-align: center;
 }
 
-.navLink {
-  font-size: 20px;
-}
-
-#headerTitle {
-  margin: auto;
-  color: white;
-}
-
 .background {
   position: absolute;
   opacity: .92;
   vertical-align: middle;
-  background-image: url('../img/background.jpg');
+  background-image: url('../../img/background.jpg');
   background-position: center;
   background-size: cover;
   content: ' ';

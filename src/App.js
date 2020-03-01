@@ -1,12 +1,23 @@
 import React from 'react'
 import { Layout, Header, Navigation, Content } from 'react-mdl'
 import { Link } from 'react-router-dom'
-import './Styles/App.css'
+import './Styles/Pages/App.css'
 import Routes from './Pages/routes'
+
+const linksStyle = {
+  title: {
+    margin: 'auto',
+    color: 'white',
+    textDecoration: 'none'
+  },
+  navLinks: {
+    fontSize: '20px'
+  }
+}
 
 const getTitle = () => {
   return (
-    <Link to='/' id='headerTitle' style={{ textDecoration: 'none' }}> Alyson Maruyama </Link>
+    <Link to='/' style={linksStyle.title}> Alyson Maruyama </Link>
   )
 }
 
@@ -17,8 +28,8 @@ function App () {
         {/* Header */}
         <Header transparent title={getTitle()} className='headerContainer'>
           <Navigation>
-            <Link to='/' className='navLink'>Início</Link>
-            <Link to='/about' className='navLink'>Sobre</Link>
+            <Link to='/' style={linksStyle.navLinks}>Início</Link>
+            <Link to='/about' style={linksStyle.navLinks}>Sobre</Link>
           </Navigation>
         </Header>
 

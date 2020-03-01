@@ -3,7 +3,7 @@ import { Grid, Cell, ProgressBar, Button } from 'react-mdl'
 import { Spring } from 'react-spring/renderprops'
 import ProfileCard from '../Components/ProfileCard'
 
-import '../Styles/LandingPage.css'
+import '../Styles/Pages/LandingPage.css'
 
 import githubIcon from '../img/icons/github.svg'
 import gitlabIcon from '../img/icons/gitlab.svg'
