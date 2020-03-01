@@ -4,13 +4,9 @@ import { Link } from 'react-router-dom'
 import './Styles/App.css'
 import Routes from './Pages/routes'
 
-const linkStyle = {
-  fontSize: '20px'
-}
-
 const getTitle = () => {
   return (
-    <h4 style={{ margin: 'auto' }}> Alyson Maruyama </h4>
+    <Link to='/' id='headerTitle' style={{ textDecoration: 'none' }}> Alyson Maruyama </Link>
   )
 }
 
@@ -21,8 +17,8 @@ function App () {
         {/* Header */}
         <Header transparent title={getTitle()} className='headerContainer'>
           <Navigation>
-            <Link to='/' style={linkStyle}>Início</Link>
-            <Link to='/about' style={linkStyle}>Sobre</Link>
+            <Link to='/' className='navLink'>Início</Link>
+            <Link to='/about' className='navLink'>Sobre</Link>
           </Navigation>
         </Header>
 

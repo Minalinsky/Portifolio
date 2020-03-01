@@ -4,10 +4,20 @@
   --textBackground: #fafafa;
   --textColor: black;
   --textHighlight: rgb(255, 255, 124);
+  --fontFamily: 'Roboto'
 }
 
 .App {
   text-align: center;
+}
+
+.navLink {
+  font-size: 20px;
+}
+
+#headerTitle {
+  margin: auto;
+  color: white;
 }
 
 .background {
@@ -30,7 +40,7 @@
   background: #1F1C2C;
   background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);
   background: linear-gradient(to right, #928DAB, #1F1C2C);
-  font-family: 'Roboto';
+  font-family: var(--fontFamily);
 }
 
 #Content {
