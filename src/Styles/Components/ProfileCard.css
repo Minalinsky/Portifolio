@@ -11,7 +11,6 @@
 }
 
 .profileIcon {
-  padding-left: 15%;
   height: 40px;
 }
 
@@ -36,4 +35,13 @@
   width: 40%;
   height: 100%;
   text-align: start;
+}
+
+#personalInfoBox table {
+  padding-left: 3%;
+}
+
+#personalInfoBox .profileDescription {
+  padding-left: 3%;
+  padding-top: 3%;
 }
