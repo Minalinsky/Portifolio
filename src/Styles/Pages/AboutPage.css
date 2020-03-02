@@ -1,0 +1,19 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 60px;
+  width: 60%;
+}
+
+.aboutGrid {
+  width: 90%;
+  height: fit-content;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.aboutContainer h4 {
+  width: 100%;
+  margin: 3%;
+}

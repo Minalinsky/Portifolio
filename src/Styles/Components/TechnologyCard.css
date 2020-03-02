@@ -1,0 +1,8 @@
+.techCell {
+  display: flex;
+  justify-content: center;
+}
+
+.techLogo {
+  width: 40%;
+}
